@@ -83,6 +83,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="page\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="page\fonts\glyphicons-halflings-regular.ttf" />
@@ -101,7 +102,6 @@
     <Content Include="page\css\bootstrap.css" />
     <Content Include="page\css\style.css" />
     <Content Include="page\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="page\index.html" />
     <Content Include="page\js\bootstrap.js" />
     <Content Include="page\js\bootstrap.min.js" />
     <Content Include="page\js\npm.js" />
