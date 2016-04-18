@@ -9,6 +9,9 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/script.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,12 +21,25 @@
     <![endif]-->
 </head>
 <body>
-    <div class="container">
+    <!--<div class="container">
         <div class="row"></div>
-         <input type="button" class="nav_button" value="Show"/>   
+         
+    </div>--> 
+
+    <div class="header_button">
+        <input type="button" class="nav_button" value="Show"    onclick="OnBtnShowClick();" />
+        <input type="button" class="nav_button" value="Add"     onclick="OnBtnAddClick();" />
+        <input type="button" class="nav_button" value="Recmove" onclick="OnBtnRecmoveClick();"/>
     </div> 
+    <div id="show" class="content">
 
+    </div>
+    <div id="add"  class="content" >
 
+    </div>
+    <div id="remove" class="content">
+
+    </div>
   
 
 
